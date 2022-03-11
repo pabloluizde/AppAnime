@@ -15,7 +15,7 @@ class _SplashPageState extends State<SplashPage> {
         context, MaterialPageRoute(builder: (context) => LoginPage())));
     imageCache!.clear();
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.white,
       body: Container(
           alignment: Alignment.center,
           child: SizedBox(
