@@ -1,3 +1,4 @@
+import 'package:criatividade/pages/Kimetsu_database/widgets/containerDecoration.dart';
 import 'package:flutter/material.dart';
 import 'package:new_gradient_app_bar/new_gradient_app_bar.dart';
 
@@ -35,26 +36,8 @@ class _KimetsuDetalhesState extends State<KimetsuDetalhes> {
               Color.fromARGB(255, 46, 2, 53)
             ])),
         body: Stack(children: [
-          Container(
-              decoration: BoxDecoration(
-            image: DecorationImage(
-              fit: BoxFit.cover,
-              colorFilter: ColorFilter.mode(
-                  Colors.black.withOpacity(0.1), BlendMode.dstATop),
-              image: new NetworkImage(
-                widget.fundo,
-              ),
-            ),
-            gradient: LinearGradient(
-              begin: FractionalOffset.topCenter,
-              end: FractionalOffset.bottomCenter,
-              colors: [
-                Color.fromARGB(0, 0, 0, 0).withOpacity(0.0),
-                Color.fromARGB(243, 0, 0, 0)
-              ],
-            ),
-            borderRadius: BorderRadius.circular(15),
-          )),
+          ContainerDecoraation(
+              backgroundImage: widget.fundo, page: Text('aaa')),
           Column(
             children: [],
           ),
