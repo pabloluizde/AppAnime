@@ -1,4 +1,5 @@
 import 'package:criatividade/core/images_service.dart';
+import 'package:criatividade/pages/Kimetsu_database/kimetsu_home_page.dart';
 import 'package:criatividade/pages/home/widgets/container.dart';
 import 'package:criatividade/pages/splashPage/splash_page.dart';
 import 'package:flutter/material.dart';
@@ -22,7 +23,10 @@ class _RowInfosPageState extends State<RowInfosPage> {
           width: 20,
         ),
         GestureDetector(
-          onTap: () {},
+          onTap: () {
+            Navigator.push(context,
+                MaterialPageRoute(builder: (context) => KimetsuHomePage()));
+          },
           child: CaixaPreta(
               color: Colors.black,
               image: AppImages.uzuiGif,

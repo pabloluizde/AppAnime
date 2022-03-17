@@ -1,3 +1,4 @@
+import 'package:flame/components.dart';
 import 'package:flutter/material.dart';
 import 'infos_row.dart';
 
@@ -7,6 +8,7 @@ class HomeInfosPage extends StatefulWidget {
 }
 
 class _HomeInfosPageState extends State<HomeInfosPage> {
+  double speed = 2.0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(

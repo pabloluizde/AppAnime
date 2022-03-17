@@ -27,6 +27,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   new_gradient_app_bar: ^0.2.0
   scroll_snap_list: ^0.8.4
+  flame: ^1.0.0
+
   
 
 dev_dependencies:
@@ -53,6 +55,7 @@ flutter:
   assets:
   - assets/gifs/
   - assets/images/
+  - assets/dataBase/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

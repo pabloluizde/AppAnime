@@ -1,0 +1,100 @@
+[
+  {
+    "personagem": "Tanjiro Kamado",
+    "idade": 15,
+    "altura": 1.65,
+    "peso": 61,
+    "imagem": "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/e/e1/Tanjiro_anime.png",
+    "fundo": "https://i.pinimg.com/564x/88/24/c6/8824c6a7e756f1ef251f19125ee017f5.jpg"
+    
+  },
+  {
+    "personagem": "Inozuke Hashibira",
+    "idade": 15,
+    "altura": 1.64,
+    "peso": 63,
+    "imagem": "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/d/d4/Inosuke_anime.png",
+    "fundo": "https://i.pinimg.com/564x/22/14/5c/22145c990ff6a2723fe3e482c77d1fe4.jpg"
+  },
+  {
+    "personagem": "Zenitsu Agatsuma",
+    "idade": 16,
+    "altura": 1.64,
+    "peso": 58,
+    "imagem": "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/6/66/Zenitsu_anime.png",
+    "fundo": "https://i.pinimg.com/564x/22/14/5c/22145c990ff6a2723fe3e482c77d1fe4.jpg"
+  },
+  {
+    "personagem": "Obanai Iguro",
+    "idade": 21,
+    "altura": 1.62,
+    "peso": 53,
+    "imagem": "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/b/b2/Obanai_anime.png",
+    "fundo": "https://i.pinimg.com/564x/88/24/c6/8824c6a7e756f1ef251f19125ee017f5.jpg"
+  },
+  {
+    "personagem": "Kyojuro Rengoku",
+    "idade": 20,
+    "altura": 1.77,
+    "peso": 72,
+    "imagem": "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/f/fd/Kyojuro_anime.png",
+    "fundo": "https://i.pinimg.com/564x/27/04/28/270428ebbfbd4fef74031c59b1cb7892.jpg"
+  },
+  {
+    "personagem": "Tengen Uzui",
+    "idade": 23,
+    "altura": 1.98,
+    "peso": 95,
+    "imagem": "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/0/07/Tengen_anime.png",
+    "fundo": "https://i.pinimg.com/564x/f5/5d/cc/f55dcc2bdcbc1f282089ba3c9b3cd89c.jpg"
+  },
+  {
+    "personagem": "Giyu Tomioka",
+    "idade": 21,
+    "altura": 1.76,
+    "peso": 69,
+    "imagem": "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/4/43/Giyu_anime_design.png",
+    "fundo": "https://i.pinimg.com/564x/41/af/a1/41afa14837a353137942cc59b5abf601.jpg"
+  },
+  {
+    "personagem": "Mitsuri Kanroji",
+    "idade": 19,
+    "altura": 1.67,
+    "peso": 56,
+    "imagem": "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/7/74/Mitsuri_anime.png",
+    "fundo": "https://i.pinimg.com/564x/88/24/c6/8824c6a7e756f1ef251f19125ee017f5.jpg"
+  },
+  {
+    "personagem": "Sanemi Shinazugawa",
+    "idade": 21,
+    "altura": 1.79,
+    "peso": 75,
+    "imagem": "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/c/cc/Sanemi_anime.png",
+    "fundo": "https://i.pinimg.com/564x/88/24/c6/8824c6a7e756f1ef251f19125ee017f5.jpg"
+  }, 
+  {
+    "personagem": "Gyomei Himejim",
+    "idade": 27,
+    "altura": 2.20,
+    "peso": 130,
+    "imagem": "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/8/85/Gyomei_anime.png",
+    "fundo": "https://i.pinimg.com/564x/88/24/c6/8824c6a7e756f1ef251f19125ee017f5.jpg"
+  },
+  {
+    "personagem": "Muichiro Tokito",
+    "idade": 14,
+    "altura": 1.60,
+    "peso": 56,
+    "imagem": "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/f/f7/Muichiro_anime.png",
+    "fundo": "https://i.pinimg.com/564x/88/24/c6/8824c6a7e756f1ef251f19125ee017f5.jpg"
+  }
+  ,
+  {
+    "personagem": "Shinobu Kocho",
+    "idade": 18,
+    "altura": 1.51,
+    "peso": 37,
+    "imagem": "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/e/e5/Shinobu_anime.png",
+    "fundo": "https://i.pinimg.com/564x/ef/62/fc/ef62fc6e77ed83dc2e26d63aef72d6a5.jpg"
+  }
+]
