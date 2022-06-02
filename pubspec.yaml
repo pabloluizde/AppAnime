@@ -28,6 +28,7 @@ dependencies:
   new_gradient_app_bar: ^0.2.0
   scroll_snap_list: ^0.8.4
   flame: ^1.0.0
+  carousel_slider: ^4.1.1
 
   
 

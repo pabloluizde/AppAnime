@@ -1,8 +1,10 @@
 import 'package:criatividade/core/images_service.dart';
 import 'package:criatividade/pages/LoginPage/buttonLogin.dart';
 import 'package:criatividade/pages/LoginPage/text_input.dart';
+
 import 'package:flutter/material.dart';
 
+import '../home/home_page.dart';
 import 'background_login.dart';
 
 class LoginPage extends StatefulWidget {
@@ -24,7 +26,9 @@ class _LoginPageState extends State<LoginPage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               SizedBox(
-                  height: 100, width: 300, child: Image.asset(AppImages.logo)),
+                height: 100,
+                width: 300,
+              ),
               const SizedBox(height: 20),
               SizedBox(width: 300, child: LoginInput(email)),
               const SizedBox(height: 20),
@@ -33,7 +37,11 @@ class _LoginPageState extends State<LoginPage> {
               SizedBox(
                   height: 50,
                   width: 150,
-                  child: EnterButton(context: context, title: "Enter")),
+                  child: EnterButton(
+                    context: context,
+                    title: "Enter",
+                    page: HomePage(),
+                  )),
             ]),
       ]),
     );

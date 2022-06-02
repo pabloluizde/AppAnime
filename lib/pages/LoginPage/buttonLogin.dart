@@ -1,19 +1,18 @@
 import 'package:flutter/material.dart';
-
-import '../home/home.dart';
 import '../splashPage/splash_page.dart';
 
 class EnterButton extends ElevatedButton {
   EnterButton({
     Key? key,
+    page = Widget,
     required BuildContext context,
     required String title,
     required,
   }) : super(
           key: key,
           onPressed: () {
-            Navigator.push(context,
-                MaterialPageRoute(builder: (context) => const HomePage()));
+            Navigator.push(
+                context, MaterialPageRoute(builder: (context) => page));
           },
           style: ElevatedButton.styleFrom(
               shape: RoundedRectangleBorder(

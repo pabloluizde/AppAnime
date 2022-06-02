@@ -36,7 +36,8 @@ class _KimetsuDetalhesState extends State<KimetsuDetalhes> {
               Color.fromARGB(255, 46, 2, 53)
             ])),
         body: Stack(children: [
-          ContainerDecoraation(backgroundImage: widget.fundo, page: Text('aa')),
+          ContainerDecoraation(
+              backgroundImage: widget.fundo, page: Text(widget.personagem)),
           Column(
             children: [],
           ),
