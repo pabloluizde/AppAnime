@@ -29,8 +29,10 @@ class MenuCar extends Container {
         );
 }
 
-final List<String> nome =
-    ['one piece', 'demon', 'naruto', 'boku no hero'].toList();
+final List<String> nome = ['one piece', 'demon', 'naruto', 'boku no hero']
+    .map((itemname) => itemname)
+    .toList();
+
 final List<Widget> imageSliders = imgList
     .map((item) => Container(
           child: Container(
@@ -50,7 +52,7 @@ final List<Widget> imageSliders = imgList
                       left: 20,
                       child: Container(
                         child: Text(
-                          'No. ${nome.length} image',
+                          "${nome.map((e) => nome)}",
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 20.0,

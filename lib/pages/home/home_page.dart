@@ -14,6 +14,11 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Color.fromARGB(255, 12, 12, 12),
+        appBar: AppBar(
+          backgroundColor: Color.fromARGB(255, 12, 12, 12),
+          automaticallyImplyLeading: false,
+          title: Text("ANIMES APP"),
+        ),
         body: Stack(
           children: [
             Container(

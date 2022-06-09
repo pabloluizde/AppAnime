@@ -13,7 +13,7 @@ class _SplashPageState extends State<SplashPage> {
   Widget build(BuildContext context) {
     Future.delayed(Duration(seconds: 2)).then((_) => Navigator.pushReplacement(
         context, MaterialPageRoute(builder: (context) => LoginPage())));
-    imageCache!.clear();
+    imageCache.clear();
     return Scaffold(
       backgroundColor: Colors.white,
       body: Container(
