@@ -11,14 +11,16 @@ final List<dynamic> imgList = [
   'https://i.pinimg.com/originals/77/ec/22/77ec220a957c415c3f81ec2e9312d5ba.gif'
 ];
 
-class MenuCar extends Container {
-  MenuCar({Key? key})
+class RowTop10 extends Container {
+  RowTop10({Key? key})
       : super(
           key: key,
           child: Container(
+            width: double.infinity,
             child: CarouselSlider(
               options: CarouselOptions(
-                aspectRatio: 150 / 100,
+                height: 150.0,
+                aspectRatio: 9 / 10,
                 enlargeCenterPage: true,
                 enableInfiniteScroll: true,
                 autoPlay: true,
@@ -35,37 +37,35 @@ final List<String> nome = ['one piece', 'demon', 'naruto', 'boku no hero']
 
 final List<Widget> imageSliders = imgList
     .map((item) => Container(
-          child: Container(
-            margin: EdgeInsets.all(5.0),
-            child: ClipRRect(
-                borderRadius: BorderRadius.all(Radius.circular(10.0)),
-                child: Stack(
-                  children: <Widget>[
-                    Image.network(
-                      item,
-                      fit: BoxFit.cover,
-                      height: double.infinity,
-                      width: double.infinity,
-                    ),
-                    Positioned(
-                      top: 200,
-                      left: 20,
-                      child: Container(
-                        child: Text(
-                          "Animes",
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 20.0,
-                            fontWeight: FontWeight.bold,
-                          ),
+          margin: EdgeInsets.all(5.0),
+          child: ClipRRect(
+              borderRadius: BorderRadius.all(Radius.circular(10.0)),
+              child: Stack(
+                children: <Widget>[
+                  Image.network(
+                    item,
+                    fit: BoxFit.cover,
+                    height: double.infinity,
+                    width: double.infinity,
+                  ),
+                  Positioned(
+                    top: 200,
+                    left: 20,
+                    child: Container(
+                      child: Text(
+                        "Animes",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 20.0,
+                          fontWeight: FontWeight.bold,
                         ),
-                        decoration: BoxDecoration(
-                            borderRadius:
-                                BorderRadius.all(Radius.circular(10.0))),
                       ),
+                      decoration: BoxDecoration(
+                          borderRadius:
+                              BorderRadius.all(Radius.circular(10.0))),
                     ),
-                  ],
-                )),
-          ),
+                  ),
+                ],
+              )),
         ))
     .toList();
